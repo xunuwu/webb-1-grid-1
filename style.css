@@ -1,1 +1,34 @@
 html, body { height: 100%; margin: 0; padding: 0; }
+
+.main-page {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+        "header header"
+        "left right"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: red;
+}
+
+.left {
+    grid-area: left;
+    background-color: blue;
+
+}
+
+.right {
+    grid-area: right;
+    background-color: green;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
+}
