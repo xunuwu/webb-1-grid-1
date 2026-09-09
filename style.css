@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ body {
     grid-template-rows: 100px auto 100px;
     grid-template-columns: 3fr 2fr;
     gap: 10px;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "left right"
         "footer footer";
@@ -46,12 +47,12 @@ footer {
     background-color: rgb(40, 30, 30);
 }
 
-header > h1 {
+header>h1 {
     font-family: Arial;
     text-align: center;
 }
 
-.right > img {
+.right>img {
     width: 100%;
     height: auto;
 }
